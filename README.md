@@ -4,5 +4,5 @@ User Authentication, Make a post, Delete your post, Add profile picture, Change 
 1)Install node 
 2)Download essential packages by "npm i passport passport-local passport-local-mongoose mongoose express-session multer uuid"
 3)Set up your database
-
+4)View the web app in Mobile view (Inspect + turn on "Toggle Device Toolbar")
 
