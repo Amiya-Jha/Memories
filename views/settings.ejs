@@ -1,0 +1,29 @@
+<% include ./partials/header.ejs %>
+  <main class="w-full min-h-screen bg-blue-800 text-white py-5">
+    <header class="nav flex justify-between items-center px-4">
+      <h3 class="text-lg">Settings</h3>
+      <div class="icons flex gap-5">
+        <a href="/upload"><i class="text-[2.0rem] ri-add-box-line"></i></a>
+        <a href="/profile"><i class="text-[2.0rem] ri-close-line"></i></a>
+      </div>
+    </header>
+
+    <section class="options mt-8">
+      <!-- Wrap each row in an anchor tag -->
+      <a href="/change-email" class="option px-6 py-3 flex justify-between items-center border-b border-gray-300">
+        <span>Change Email ID</span>
+        <i class="ri-arrow-right-s-line"></i>
+      </a>
+
+      <a href="/change-password" class="option px-6 py-3 flex justify-between items-center border-b border-gray-300">
+        <span>Change Password</span>
+        <i class="ri-arrow-right-s-line"></i>
+      </a>
+
+      <a href="/logout" class="option px-6 py-3 flex justify-between items-center text-red-500">
+        <span>Logout</span>
+        <i class="ri-arrow-right-s-line"></i>
+      </a>
+    </section>
+  </main>
+  <% include ./partials/footer.ejs %>

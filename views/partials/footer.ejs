@@ -1,0 +1,23 @@
+<% if(footer){ %>
+  <div class="footer text-white flex justify-between items-center w-full fixed bottom-0 z-[10] bg-blue-800 px-10 py-3">
+    <a href="/feed"><i class="text-[2.0rem] ri-home-line"></i></a>
+    <a href="/search"><i class="text-[2.0rem] ri-search-line"></i></a>
+    <a href="/upload"><i class="text-[2.0rem] ri-add-box-line"></i></a>
+    <a href="/profile"><i class="text-[2.0rem] ri-user-3-line"></i>
+  </div>
+  </a>
+  </div>
+  <% } %>
+    <script>
+      document.addEventListener("DOMContentLoaded", function (event) {
+        var scrollpos = localStorage.getItem('scrollpos');
+        if (scrollpos) window.scrollTo(0, scrollpos);
+      });
+
+      window.onbeforeunload = function (e) {
+        localStorage.setItem('scrollpos', window.scrollY);
+      };
+    </script>
+    </body>
+
+    </html>
