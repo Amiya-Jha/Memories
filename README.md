@@ -1,19 +1,35 @@
 # Memories
 
-⚙️Tech Stack
+## Overview
 
-👉🏽EJS
-👉🏽Express.js
-👉🏽Node.js
-👉🏽Tailwind CSS
-👉🏽MongoDB
+Welcome to Memories, a social media platform designed for sharing and cherishing your moments. This repository contains the source code for Memories, built with a powerful tech stack.
 
-🔋 Features
+## 🛠️ Tech Stack
 
-👉🏽 User Authentication (Sign Up, Login)
-👉🏽 Create a post
-👉🏽 Delete your post
-👉🏽 Add profile picture
-👉🏽 Change username or name or bio
-👉🏽 Like a post
-👉🏽 Search other exising users
+- **EJS** 
+- **JavaScript** 
+- **Express.js**
+- **Node.js**  
+- **Tailwind CSS**  
+- **MongoDB** 
+
+## 🚀 Features
+
+- **User Authentication:**
+  - Sign Up
+  - Login
+
+- **Post Management:**
+  - Create a post
+  - Delete your post
+
+- **Profile Customization:**
+  - Add a profile picture
+  - Change username, name, or bio
+
+- **Social Interaction:**
+  - Like a post
+
+- **Discover Others:**
+  - Search for existing users
+  
